@@ -1,0 +1,2382 @@
+﻿
+
+.left-border {
+    border-left: 2px solid;
+    padding-left: 10px;
+    text-align: left;
+}
+.margin{
+    margin-top:2px;
+}
+.candStar-margin{
+    margin-right:12px;
+}
+/********************************************************/
+/*                  4. Utility classes                  */
+/********************************************************/
+
+/* Align */
+.align-right {
+    text-align: right;
+}
+
+.align-left {
+    text-align: left;
+}
+
+/* Floating elements */
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.clear-right {
+    clear: right;
+}
+
+.clear-left {
+    clear: left;
+}
+
+
+.large-margin-left {
+    margin-left: 30px !important;
+}
+
+.margin-left {
+    margin-left: 16px !important;
+}
+
+.margin-left-very-small {
+    margin-left: 5px !important;
+}
+.mid-margin-left {
+    margin-left: 8px !important;
+}
+
+.small-margin-left {
+    margin-left: 4px !important;
+}
+
+.no-margin-left {
+    margin-left: 0 !important;
+}
+
+.large-margin-right {
+    margin-right: 50px !important;
+}
+
+.margin-right {
+    margin-right: 16px !important;
+}
+
+.mid-margin-right {
+    margin-right: 8px !important;
+}
+
+.small-margin-right {
+    margin-right: 4px !important;
+}
+
+.very-small-margin-right {
+    margin-right: -5px !important;
+}
+
+.no-margin-right {
+    margin-right: 0 !important;
+}
+
+/* Absolute positioning */
+
+
+/* Class used to determine which media queries are on */
+#mediaquery-checker {
+    right: 0;
+}
+
+/* IE7 vertically aligned images fix */
+.vert-align {
+    margin-left: -4px;
+}
+
+.modal {
+    background: #101010 url(/Content/img/old-browsers/colors/bg_modal.png) repeat-x;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background: -webkit-gradient(linear, right top, right bottom, from(#3d3d3d), to(#101010));
+    background: -webkit-linear-gradient(top, #3d3d3d, #101010);
+    background: -moz-linear-gradient(top, #3d3d3d, #101010);
+    background: -ms-linear-gradient(top, #3d3d3d, #101010);
+    background: -o-linear-gradient(top, #3d3d3d, #101010);
+    background: linear-gradient(top, #3d3d3d, #101010);
+    color: white;
+    border-color: #191919;
+}
+
+.modal-bar {
+    background: url(/Content/img/old-browsers/colors/bg_modal-bar.png) repeat-x;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background: -webkit-gradient(linear, right top, right bottom, from(rgba(255, 255, 255, 0.15)), to(rgba(255, 255, 255, 0)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0) 50%);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0) 50%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0) 50%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0) 50%);
+    background: linear-gradient(top, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0) 50%);
+}
+/********************************************************/
+/*                      8. Columns                      */
+/********************************************************/
+
+/* Columns */
+.columns {
+    margin-right: -2.25%;
+}
+
+    .columns > div,
+    .columns > form {
+        float: right;
+        margin: 0 2.25% 20px 0;
+    }
+
+
+/* Line breaks to ensure correct float */
+.new-row,
+.new-row-mobile,
+.new-row-mobile-portrait {
+    clear: right;
+}
+
+
+/* Content panels */
+.content-panel,
+.content-panel.mobile-panels {
+    padding-right: 0;
+}
+
+.panel-navigation,
+.mobile-panels > .panel-navigation {
+    border-left: 0;
+}
+
+
+.enabled-panels.show-panel-content > .panel-navigation,
+.mobile-panels.enabled-panels.show-panel-content > .panel-navigation {
+    right: -100%;
+    left: 100%;
+}
+
+.enabled-panels > .panel-content,
+.mobile-panels.enabled-panels > .panel-content {
+    margin-right: 100%;
+}
+
+.enabled-panels.show-panel-content > .panel-content,
+.mobile-panels.enabled-panels.show-panel-content > .panel-content {
+    margin-right: 0;
+}
+
+
+
+/********************************************************/
+/*                    9. Lists & tags                   */
+/********************************************************/
+
+/* Bullet list */
+.bullet-list {
+    margin-right: 0;
+}
+
+    .bullet-list > li {
+        padding-right: 16px;
+    }
+
+        .bullet-list > li:before {
+            float: right;
+            margin: 1px -16px 0 0;
+        }
+/* IE7 */
+.bullet-list-before {
+    float: right;
+    margin: 1px -16px 0 0;
+}
+
+
+.definition > dd {
+    padding-right: 16px;
+}
+
+/* Generic list style */
+.list {
+    margin-right: 0;
+}
+
+
+/* Blocks list */
+.blocks-list {
+    margin-right: -5px;
+}
+
+    .blocks-list > li {
+        float: right;
+        margin: 0 5px 5px 0;
+    }
+
+
+/* Fixed sizes */
+
+.fixed-size-100 {
+    margin-right: -7px;
+}
+
+    .fixed-size-100 > li {
+        margin: 0 7px 7px 0;
+    }
+
+.fixed-size-150,
+.fixed-size-200,
+.fixed-size-250 {
+    margin-right: -10px;
+}
+
+    .fixed-size-150 > li {
+        margin: 0 10px 10px 0;
+    }
+
+    .fixed-size-200 > li {
+        margin: 0 10px 10px 0;
+    }
+
+    .fixed-size-250 > li {
+        margin: 0 10px 10px 0;
+    }
+
+
+.square-46 {
+    margin-right: -7px;
+}
+
+    .square-46 > li {
+        margin: 0 7px 7px 0;
+    }
+
+.square-66,
+.square-90,
+.square-134 {
+    margin-right: -10px;
+}
+
+    .square-66 > li {
+        margin: 0 10px 10px 0;
+    }
+
+    .square-90 > li {
+        margin: 0 10px 10px 0;
+    }
+
+    .square-134 > li {
+        margin: 0 10px 10px 0;
+    }
+
+/* Version history */
+
+.version-history > li {
+    padding: 0 62px 0 0;
+}
+
+.version-new,
+.version-fixed,
+.version-upgraded {
+    float: right;
+    margin-right: -62px;
+}
+
+
+
+
+/********************************************************/
+/*         10. List arrows, count & sort handle         */
+/********************************************************/
+
+/* Arrows */
+
+.with-right-arrow:after,
+.with-right-arrow > .with-arrow-after,
+.with-left-arrow:after,
+.tabs > li > a:after,
+.with-left-arrow > .with-arrow-after,
+.tabs > li > a > .with-arrow-after {
+    left: 7px;
+}
+
+
+/* Count */
+.list-count {
+    left: 10px;
+}
+
+.with-left-arrow > .list-count, .with-left-arrow > a > .list-count, .with-left-arrow > span > .list-count,
+.tabs > li > .list-count, .tabs > li > a > .list-count, .tabs > li > span > .list-count {
+    left: 30px;
+}
+
+
+/* Sort handle */
+.list-sort {
+    left: 0;
+}
+
+
+/********************************************************/
+/*                   11. Block arrows                   */
+/********************************************************/
+
+.block-arrow {
+    right: 50%;
+    margin: 1px -6px 0 0;
+}
+
+    .block-arrow.top {
+        right: 50%;
+        margin: 0 -6px 1px 0;
+    }
+
+
+    .block-arrow.left {
+        right: 100%;
+        margin: -6px 1px 0 0;
+    }
+
+        .block-arrow.left > span {
+            margin: -6px -7px -6px -5px;
+        }
+
+    .block-arrow.right {
+        right: auto;
+        left: 100%;
+        margin: -6px 0 0 1px;
+    }
+
+        .block-arrow.right > span {
+            margin: -6px -5px -6px -7px;
+        }
+
+
+
+/********************************************************/
+/*                 12. Generic elements                 */
+/********************************************************/
+
+
+
+.count {
+    left: 6%;
+}
+
+    .count.left,
+    .count.inset,
+    .close {
+        left: 0;
+        margin: -10px 0 0 -10px;
+    }
+
+        .count.right,
+        .close.right {
+            left: auto;
+            right: 0;
+            margin: -10px -10px 0 0;
+        }
+
+        .count.inset,
+        .close.inset {
+            margin: 4px 0 0 4px;
+        }
+
+        .count.right.inset,
+        .close.right.inset {
+            margin: 4px 4px 0 0;
+        }
+
+#access > li > .count,
+#access > li > a > .count {
+    left: 20%;
+    margin: 10px 25 0 -25px;
+}
+
+
+/* Blocks */
+
+
+
+details.details > summary:before {
+    padding-left: 5px;
+}
+
+.block-title > .absolute-left {
+    left: 17px;
+}
+
+/* Ribbon, from Chris Coyer CSS Tricks : http://css-tricks.com/snippets/css/corner-ribbon */
+.ribbon {
+    left: -5px;
+}
+
+    .ribbon.tiny {
+        left: -4px;
+    }
+
+.ribbon-inner {
+    right: -7px;
+}
+
+.no-csstransforms .ribbon-inner {
+    right: -25px;
+}
+
+.tiny > .ribbon-inner {
+    right: -2px;
+}
+
+.no-csstransforms .tiny > .ribbon-inner {
+    right: -9px;
+}
+
+.ribbon-inner:before {
+    right: 1px;
+}
+
+.ribbon-inner:after {
+    left: 1px;
+}
+
+/* Meter bars */
+.meter {
+    margin-right: -2px;
+    *margin-right: 2px;
+}
+
+/* Information spot */
+
+.info-spot > [class^="icon-"],
+.info-spot > [class*=" icon-"] {
+    right: 0;
+}
+
+.info-bubble {
+    right: 15px;
+    text-align: right;
+    -moz-border-radius: 5px 0 5px 5px;
+    border-radius: 5px 0 5px 5px;
+}
+
+    .info-bubble:before {
+        left: 100%;
+        -webkit-border-top-right-radius: 13px;
+        -webkit-border-bottom-right-radius: 13px;
+    }
+/* IE7 */
+.info-bubble-before {
+    left: 100%;
+}
+
+/* Flipped */
+.on-top > .info-bubble {
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 0;
+}
+
+.on-right > .info-bubble {
+    right: auto;
+    left: 15px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-top-left-radius: 0;
+}
+
+    .on-right > .info-bubble:before {
+        left: auto;
+        right: 100%;
+        -webkit-border-top-left-radius: 13px;
+        -webkit-border-bottom-left-radius: 13px;
+        -moz-border-radius: 13px 0 0 13px;
+        border-radius: 13px 0 0 13px;
+    }
+    /* IE7 */
+    .on-right > .info-bubble > .info-bubble-before {
+        left: auto;
+        right: 100%;
+    }
+
+.on-top.on-right > .info-bubble {
+    right: auto;
+    left: 15px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 0;
+}
+    /* IE7 */
+    .on-top.on-right > .info-bubble > .info-bubble-before {
+        right: auto;
+        left: 15px;
+    }
+
+
+
+/********************************************************/
+/*                       13. Icons                      */
+/********************************************************/
+
+/* IE7 */
+.font-icon {
+    margin: -0.5em -0.077em -0.5em 0.115em;
+}
+
+
+
+.right-icon {
+    padding-right: 20px;
+}
+
+.wrapped.right-icon {
+    padding-right: 30px;
+}
+
+.boxed.right-icon {
+    padding-right: 36px;
+}
+
+.big-right-icon {
+    padding-right: 38px;
+}
+
+.wrapped.big-right-icon {
+    padding-right: 48px;
+}
+
+.boxed.big-right-icon {
+    padding-right: 54px;
+}
+
+.huge-right-icon {
+    padding-right: 68px;
+}
+
+.wrapped.huge-right-icon {
+    padding-right: 78px;
+}
+
+.boxed.huge-right-icon {
+    padding-right: 84px;
+}
+
+
+.right-icon:before {
+    top: 0;
+    right: -1px;
+}
+
+.wrapped.right-icon:before {
+    right: 9px;
+}
+
+.boxed.right-icon:before {
+    right: 15px;
+}
+
+.big-right-icon:before {
+    right: -2px;
+}
+
+.wrapped.big-right-icon:before {
+    right: 8px;
+}
+
+.boxed.big-right-icon:before {
+    right: 14px;
+}
+
+.huge-right-icon:before {
+    right: -5px;
+}
+
+.wrapped.huge-right-icon:before {
+    right: 5px;
+}
+
+.boxed.huge-right-icon:before {
+    right: 11px;
+}
+
+
+/********************************************************/
+/*               14. Main layout elements               */
+/********************************************************/
+
+/* Black title bar */
+.with-shortcuts #title-bar {
+    padding-right: 43px;
+}
+
+.reversed.with-shortcuts #title-bar {
+    padding-right: 10px;
+    padding-left: 43px;
+}
+
+.with-menu #title-bar {
+    padding-left: 92px;
+}
+
+.reversed.with-menu #title-bar {
+    padding-left: 10px;
+    padding-right: 92px;
+}
+
+.reversed.with-shortcuts.with-menu #title-bar {
+    padding-left: 43px;
+    padding-right: 92px;
+}
+
+/* Menu opener icon */
+#open-menu {
+    right: 0px;
+}
+
+body.reversed #open-menu {
+    left: 8px;
+    right: auto;
+}
+
+
+/* Shortcuts opener icon */
+#open-shortcuts {
+    right: 8px;
+}
+
+body.reversed #open-shortcuts {
+    right: auto;
+    left: 8px;
+}
+
+
+/* Main content */
+/* Title */
+
+
+#main-title h2 {
+    left: 20px;
+}
+
+
+/* Side tabs shortcuts */
+#shortcuts {
+    right: 10px;
+}
+
+.reversed #shortcuts {
+    right: auto;
+    left: 10px;
+}
+
+#shortcuts:before {
+    right: 6px;
+}
+
+.reversed #shortcuts:before {
+    right: auto;
+    left: 6px;
+}
+
+#shortcuts > li {
+    float: right;
+    margin: -5px 0 25px 10px;
+}
+
+/* Sidebar/drop-down menu */
+body.reversed #menu header {
+    text-align: left;
+}
+
+/* User name/profile */
+
+#profile .user-icon {
+    float: right;
+    margin: 0 -2px 0 10px;
+}
+
+#access > li {
+    float: right;
+}
+
+
+
+/********************************************************/
+/*                   15. Menus styles                   */
+/********************************************************/
+
+/* Big green menu */
+
+
+.big-menu > li.with-left-arrow,
+li.big-menu.with-left-arrow {
+    padding-left: 32px;
+}
+
+.big-menu > li > span,
+li.big-menu > span,
+.big-menu > li > a,
+li.big-menu > a {
+    border-right: 0px solid #404040;
+    border-right: 0px solid rgba(0, 0, 0, 0.5);
+    padding-left: 20px; /* Menu padding + hovered border width */
+}
+
+.no-touch .big-menu > li > span:hover,
+.no-touch li.big-menu > span:hover,
+.no-touch .big-menu > li > a:hover,
+.no-touch li.big-menu > a:hover,
+.no-touch .big-menu > li > .current,
+.no-touch li.big-menu > .current {
+    border-right-width: 4px;
+    padding-left: 12px;
+}
+
+.no-touch .big-menu > li.with-left-arrow > span:hover,
+.no-touch li.big-menu.with-left-arrow > span:hover,
+.no-touch .big-menu > li.with-left-arrow > a:hover,
+.no-touch li.big-menu.with-left-arrow > a:hover,
+.no-touch .big-menu > li.with-left-arrow > .current,
+.no-touch li.big-menu.with-left-arrow > .current {
+    padding-left: 28px;
+}
+
+.no-touch .big-menu > li > .current:before,
+.no-touch li.big-menu > .current:before {
+    right: 0;
+    border-right-color: #404040;
+}
+
+.collapsible.big-menu > li.with-left-arrow > ul,
+.collapsible li.big-menu.with-left-arrow > ul,
+.collapsible .big-menu > li.with-left-arrow > ul,
+.collapsible.big-menu > li.with-left-arrow > .load,
+.collapsible li.big-menu.with-left-arrow > .load,
+.collapsible .big-menu > li.with-left-arrow > .load {
+    margin-left: -32px;
+}
+
+
+/* Calendar events menu */
+
+.calendar-menu > li,
+li.calendar-menu {
+    padding: 10px 50px 10px 10px;
+}
+
+    .calendar-menu > li > a,
+    li.calendar-menu > a {
+        margin: -10px -50px -10px -10px;
+        padding: 10px 50px 10px 14px;
+    }
+
+    .calendar-menu > li time,
+    li.calendar-menu time {
+        float: right;
+        margin-right: -40px;
+    }
+
+
+
+/* Messages menu */
+
+.message-menu > li,
+li.message-menu {
+    padding: 9px 30px 10px 65px;
+}
+
+    .message-menu > li > a,
+    li.message-menu > a {
+        margin: -9px -30px -10px -65px;
+        padding: 9px 30px 10px 25px; /***** Changed by Ori Bensimon - 21/07/2013 *****/
+    }
+
+.message-status {
+    float: right;
+    margin: -1px -22px 0 0;
+}
+
+.message-info {
+    left: 7px;
+    margin-right: 0;
+    text-align: left;
+}
+
+    .message-info > a,
+    .message-info > span {
+        float: left;
+    }
+
+.starred, .unstarred, .new-message, .attach {
+    text-align: right;
+}
+
+.calendar-menu > li > a,
+li.calendar-menu > a,
+.message-menu > li > a,
+li.message-menu > a {
+    border-right: 0px solid #404040;
+    border-right: 0px solid rgba(0, 0, 0, 0.5);
+}
+
+.no-touch .calendar-menu > li > a:hover,
+.no-touch li.calendar-menu > a:hover {
+    padding-left: 10px;
+}
+
+.no-touch .message-menu > li > a:hover,
+.no-touch li.message-menu > a:hover {
+    padding-left: 30px;
+}
+
+.message-menu > li > .message-status + a,
+li.message-menu > .message-status + a,
+.message-menu > li > .message-info + a,
+li.message-menu > .message-info + a {
+    padding: 0 0 0 10px;
+}
+
+.no-touch .message-menu > li > .message-status + a:hover,
+.no-touch li.message-menu > .message-status + a:hover,
+.no-touch .message-menu > li > .message-info + a:hover,
+.no-touch li.message-menu > .message-info + a:hover {
+    padding-right: 6px;
+    padding-left: 0;
+}
+
+/* Navigable menus classes */
+
+.navigable > .load {
+    left: 0;
+}
+
+.navigable ul.fixed {
+    left: auto;
+    right: 0;
+}
+
+.navigable ul ul {
+    right: 100%;
+    left: auto;
+}
+
+
+
+.collapsible.big-menu > li.with-left-arrow > ul,
+.collapsible li.big-menu.with-left-arrow > ul,
+.collapsible .big-menu > li.with-left-arrow > ul,
+.collapsible.big-menu > li.with-left-arrow > .load,
+.collapsible li.big-menu.with-left-arrow > .load,
+.collapsible .big-menu > li.with-left-arrow > .load {
+    margin-left: -32px;
+}
+
+/* Back element */
+.back {
+    padding: 16px 32px 16px 15px;
+}
+
+    .back > .back-arrow {
+        right: 11px;
+    }
+
+
+/********************************************************/
+/*                      17. Buttons                     */
+/********************************************************/
+
+
+
+.ie7 .button {
+    margin-right: 4px;
+}
+
+    .ie7 .button:first-child {
+        margin-right: 0;
+    }
+
+.input .button:first-child {
+    margin-right: -9px;
+}
+
+.ie7 .input .button:first-child {
+    margin-right: 0;
+    margin-left: 3px;
+}
+
+.input .button:last-child {
+    margin-left: -9px;
+}
+/* IE7 */
+.input .button.last-child {
+    margin-left: -9px;
+}
+
+.input.large .button,
+.input .button:last-child {
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+
+
+/* Icon section in a button */
+.button > .button-icon {
+    text-align: right;
+    -webkit-background-clip: padding-box;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.ie7 .button > .button-icon {
+    margin: -1px 0 -1px 9px;
+}
+
+@-moz-document url-prefix() {
+    .button > .button-icon {
+        margin-right: -15px;
+    }
+}
+
+.button > .button-icon.left-side {
+    margin: -1px 9px -1px -12px;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+}
+
+@-moz-document url-prefix() {
+    .button > .button-icon.left-side {
+        margin-left: -15px;
+    }
+}
+
+
+
+.input .button.tiny:first-child,
+.input.tiny .button:first-child {
+    margin-right: -3px;
+}
+
+.input .button.tiny:last-child,
+.input.tiny .button:last-child {
+    margin-left: -3px;
+}
+/* IE7 */
+.input .button.tiny.last-child,
+.input.tiny .button.last-child {
+    margin-left: -3px;
+}
+
+
+/* Compact button */
+
+
+
+.input .button.compact:first-child,
+.input.compact .button:first-child {
+    margin-right: -6px;
+}
+
+.input .button.compact:last-child,
+.input.compact .button:last-child {
+    margin-left: -6px;
+}
+/* IE7 */
+.input .button.compact.last-child,
+.input.compact .button.last-child {
+    margin-left: -6px;
+}
+
+.compact > .button-icon {
+    margin: -1px -9px -1px 4px;
+}
+
+    .compact > .button-icon.left-side {
+        margin: -1px 4px -1px -9px;
+    }
+
+/* Big button */
+
+.big > .button-icon {
+    margin: -1px -13px -1px 8px;
+}
+
+    .big > .button-icon.left-side {
+        margin: -1px 8px -1px -13px;
+    }
+
+/* Huge button */
+
+
+
+/* Grouped buttons */
+.button-group {
+    padding-right: 1px;
+}
+
+.ie7 .button-group {
+    margin-right: 4px;
+}
+
+    .ie7 .button-group:first-child {
+        margin-right: 0;
+    }
+
+    .button-group > .button,
+    .ie7 .button-group > .button {
+        float: right;
+        margin-right: -1px;
+    }
+
+        .button-group > .button:first-child {
+            border-right-width: 1px;
+            -webkit-border-top-right-radius: 4px;
+            -webkit-border-bottom-right-radius: 4px;
+            -moz-border-radius-topright: 4px;
+            -moz-border-radius-bottomright: 4px;
+            border-top-right-radius: 4px;
+            border-bottom-bottom-radius: 4px;
+        }
+
+        .button-group > .button:last-child {
+            -webkit-border-top-left-radius: 4px;
+            -webkit-border-bottom-left-radius: 4px;
+            -moz-border-radius-topleft: 4px;
+            -moz-border-radius-bottomleft: 4px;
+            border-top-left-radius: 4px;
+            border-top-left-radius: 4px;
+        }
+
+
+/********************************************************/
+/*                      18. Loaders                     */
+/********************************************************/
+
+
+.input .loader:first-child {
+    margin-right: -1px;
+}
+
+.input .loader:last-child {
+    margin-left: -1px;
+}
+/* IE7 */
+.input .loader.last-child {
+    margin-left: -1px;
+}
+
+
+/********************************************************/
+/*                     19. Messages                     */
+/********************************************************/
+
+.big-message-icon {
+    float: right;
+    margin: 0 -3px 0 17px;
+}
+
+    .big-message-icon.with-text {
+        margin: -6px -6px -6px 20px;
+    }
+
+    .big-message-icon.left-side {
+        float: left;
+        margin-right: 17px;
+        margin-left: -6px;
+    }
+
+    .big-message-icon.with-text.left-side {
+        margin-right: 20px;
+        margin-left: -6px;
+    }
+
+
+/********************************************************/
+/*                       20. Tabs                       */
+/********************************************************/
+
+/* This wrapper class is required to handle responsive variations */
+
+/* Actual tabs */
+.tabs > li {
+    padding: 12px 12px 12px 30px;
+}
+
+    .tabs > li > a {
+        margin: -12px -12px -12px -30px;
+        padding: 12px 12px 12px 30px;
+    }
+
+.tab-actions {
+    right: auto;
+    left: -12.5%;
+}
+
+/* Back button */
+.tabs-back {
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+/* When js is activated */
+.tabs-active > .tabs,
+.tabs-active > .tabs-content {
+    right: 0;
+}
+
+.tabs-active > .tabs-content {
+    right: 100%;
+}
+
+/* When transistions are enabled */
+.tabs-animated > .tabs,
+.tabs-animated > .tabs-content {
+    -webkit-transition: right 300ms;
+    -moz-transition: right 300ms;
+    -ms-transition: right 300ms;
+    -o-transition: right 300ms;
+    transition: right 300ms;
+}
+
+/* When a tab is opened */
+.tab-opened > .tabs {
+    right: -100%;
+}
+
+.csstransforms .tab-opened > .tabs {
+    right: 0;
+}
+
+.tab-opened > .tabs-content {
+    right: 0;
+}
+
+.csstransforms .tab-opened > .tabs-content {
+    right: 100%;
+}
+
+
+
+
+
+/********************************************************/
+/*                   21. Notifications                  */
+/********************************************************/
+
+#top-notifications,
+#bottom-notifications {
+    text-align: right;
+}
+
+
+.notification-icon {
+    float: right;
+    margin: 7px 8px 7px 6px;
+}
+
+/********************************************************/
+/*                     22. Tooltips                     */
+/********************************************************/
+
+
+/* Tooltips inserted inside some elements */
+.message.inner-tooltip {
+    right: 50%;
+}
+
+    .message.inner-tooltip.left {
+        right: 100%;
+        margin: -15px 10px 0 0;
+    }
+
+    .message.inner-tooltip.right {
+        right: auto;
+        left: 100%;
+        margin: -15px 0 0 10px;
+    }
+
+/********************************************************/
+/*                    23. Extra stuff                   */
+/********************************************************/
+
+/* Fix mobile browsers increased font-size */
+
+/* Image replacement */
+.ir {
+    text-align: right;
+    direction: rtl;
+}
+
+/* Hide for screenreaders and visual browsers */
+
+
+/************* Custom Styles - Added by Ori Bensimon - 14/07/2013 ***************/
+.padding-right {
+    padding-right: 16px;
+}
+
+.padding-left {
+    padding-left: 16px;
+}
+
+.loadimg {
+    left: 50%;
+    margin-left: -32px; /* -1 * image width / 2 */
+}
+
+.right-column {
+    -webkit-transition: margin-left 200ms;
+    -moz-transition: margin-left 200ms;
+    -o-transition: margin-left 200ms;
+    transition: margin-left 200ms;
+}
+
+
+
+/* add by Jacob 21.04.15 */
+
+h3.HeaderBlink:hover {
+    float: right;
+}
+
+
+.Float {
+    float: right;
+}
+
+
+
+
+/********* table.css ********************/
+
+/* Generic */
+
+/* Complex table style */
+
+.table > thead,
+.table > tbody > tr > th,
+.table > tfoot > tr > th {
+    text-align: right;
+}
+
+.table > tbody > tr > th,
+.table > tbody > tr > td {
+}
+
+.headerSortUp:before,
+.headerSortDown:before {
+    padding-left: 2px;
+}
+
+
+
+/******* tabs.css **************/
+/*************** Custom styles - Added by Ori Bensimon - 10/07/2013 ********************/
+#tabscontainer {
+    padding-right: 65px;
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+    #tabscontainer ul {
+        float: right;
+    }
+
+        #tabscontainer ul li {
+            float: right;
+        }
+
+            #tabscontainer ul li > a, .tabsorganizer a {
+                padding: 6px 10px 8px 20px;
+                margin-right: 0;
+            }
+
+.tabsorganizer {
+    float: right;
+}
+
+    .tabsorganizer a.bottom {
+        -webkit-border-radius: 4px 4px 0 0;
+        -moz-border-radius: 4px 4px 0 0;
+        border-radius: 4px 4px 0 0;
+    }
+
+.hometabicon {
+    margin-left: 6px;
+}
+
+
+
+
+/****** forms.css ************/
+
+
+/* Standard text input */
+.input, .inputs {
+    text-align: right;
+}
+
+.inputs {
+    margin-right: 0;
+}
+
+    .input > .input-unstyled:first-child,
+    .inputs > li > .input-unstyled:first-child {
+        margin-right: -9px;
+        padding-right: 9px !important;
+    }
+
+    .input > .input-unstyled:last-child,
+    .inputs > li > .input-unstyled:last-child {
+        margin-left: -9px;
+        padding-left: 9px !important;
+    }
+    /* IE7 */
+    .input > .input-unstyled.last-child,
+    .inputs > li > .input-unstyled.last-child {
+        margin-left: -9px;
+        padding-left: 9px !important;
+    }
+
+.input-sep {
+    padding-left: 6px;
+    border-left: 1px solid #cccccc;
+    margin-left: 6px;
+}
+
+    .input-sep + .input-unstyled {
+        margin-right: -6px;
+        padding-right: 6px;
+    }
+
+
+.large > .input-unstyled:first-child,
+.large > li > .input-unstyled:first-child {
+    margin-right: -19px;
+    padding-right: 19px !important;
+}
+
+.large > .input-unstyled:last-child,
+.large > li > .input-unstyled:last-child {
+    margin-left: -19px;
+    padding-left: 19px !important;
+}
+/* IE7 */
+.large > .input-unstyled.last-child,
+.large > li > .input-unstyled.last-child {
+    margin-left: -19px;
+    padding-left: 19px !important;
+}
+
+/* Value field */
+.no-touch .number.input {
+    padding: 0 3px 0 0;
+}
+
+.no-touch .number-up,
+.no-touch .number-down {
+    left: 0;
+}
+
+.number-up:after,
+.number-down:after {
+    right: 50%;
+}
+/* IE7 */
+.number-after {
+    right: 50%;
+}
+
+.no-touch .disabled .number-up {
+    left: -1px;
+}
+
+.no-touch .number-down {
+    -webkit-border-bottom-left-radius: 3px !important;
+    -moz-border-radius: 0 0 0 3px !important;
+    border-radius: 0 0 0 3px !important;
+}
+
+.no-touch .disabled > .number-down {
+    left: -1px;
+}
+
+
+/* Form layouts */
+
+.block-label > .label > small {
+    float: left;
+}
+
+.inline-small-label {
+    padding-right: 60px;
+}
+
+    .inline-small-label > .label {
+        float: right;
+        margin-right: -60px;
+    }
+
+
+/* Fieldset and field-lists */
+.ie7 .legend {
+    right: 20px;
+}
+
+.field-drop:after {
+    right: 100px;
+}
+
+/* Selects */
+.select {
+    text-align: right;
+}
+
+.select {
+    padding: 0 0 0 26px;
+}
+
+    .select > select,
+    .selectMultiple > select {
+        right: 0;
+    }
+
+.input .select:first-child {
+    margin-right: -9px;
+}
+
+.input .select:last-child {
+    margin-left: -9px;
+}
+/* IE7 */
+.input .select.last-child {
+    margin-left: -9px;
+}
+
+.select-value {
+    -moz-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.select-arrow {
+    /*left: 0;*/
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+}
+
+.input.large .select-arrow,
+.input .select:last-child > .select-arrow {
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.select-arrow:before,
+.select-arrow:after {
+    right: 50%;
+    margin-right: -3px;
+}
+/* IE7 */
+.select-arrow-before,
+.select-arrow-after {
+    right: 50%;
+    margin-right: -3px;
+}
+
+.select-search {
+    right: 1px;
+    left: 27px;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.compact .select-search {
+    left: 23px;
+}
+
+
+.select.expandable-list > .drop-down {
+    left: auto;
+}
+
+.select.expandable-list.expand-right > .drop-down {
+    right: auto;
+    left: 0;
+}
+
+.check-list > .drop-down > span,
+.check-list > .drop-down > a {
+    padding: 10px 38px 10px 10px;
+}
+
+    .check-list > .drop-down > span > span,
+    .check-list > .drop-down > a > span {
+        right: 6px;
+    }
+
+.no-touch .check-list > .drop-down > span:hover,
+.no-touch .check-list > .drop-down > a:hover,
+.check-list > .drop-down > .selected {
+    padding: 10px 38px 10px 10px;
+}
+
+/* Option groups */
+.drop-down > .in-group {
+    padding-right: 20px;
+}
+
+    .no-touch .drop-down > .in-group:hover,
+    .drop-down > .in-group.selected {
+        padding-right: 19px;
+    }
+
+.no-touch .drop-down > .in-group.disabled:hover {
+    padding-right: 20px;
+}
+
+.check-list > .drop-down > .in-group,
+.no-touch .check-list > .drop-down > .in-group:hover,
+.no-touch .check-list > .drop-down > .in-group.selected {
+    padding-right: 48px;
+}
+
+    .check-list > .drop-down > .in-group > span {
+        right: 16px;
+    }
+
+.select.compact, .compact .select {
+    padding-left: 22px;
+}
+
+.input .select.compact:first-child,
+.input.compact .select:first-child {
+    margin-right: -6px;
+}
+
+.input .select.compact:last-child,
+.input.compact .select:last-child {
+    margin-left: -6px;
+}
+/* IE7 */
+.input .select.compact.last-child,
+.input.compact .select.last-child {
+    margin-left: -6px;
+}
+
+.select.compact > .select-value,
+.compact .select > .select-value {
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.select.compact > .select-arrow,
+.compact .select > .select-arrow {
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+}
+/* Styled radio/checkboxes */
+
+.checkbox > input,
+.radio > input {
+    right: 0;
+}
+
+.checkbox > .check-knob {
+    right: 50%;
+}
+
+.radio > .check-knob {
+    right: 2px;
+}
+
+
+/* Wizard */
+
+.wizard-steps > li {
+    padding: 0 57px 0 0;
+}
+
+    .wizard-steps > li:first-child {
+        padding-right: 36px !important;
+    }
+
+.wizard-steps > .active {
+    padding: 0 65px 0 9px;
+}
+
+.wizard-step {
+    float: right;
+    margin: 8px -27px 0 0;
+}
+
+
+/*768px __________________________________________________________________________________________________________ */
+@media only screen and (min-width: 768px) {
+
+    /* Form layouts */
+    .inline-label {
+        padding-right: 80px; /*Change by Ori Bensimon - 15/07/2013 */
+    }
+
+        .inline-label > .label {
+            float: right;
+            margin-right: -80px; /*Change by Ori Bensimon - 15/07/2013 */
+        }
+
+    .inline-medium-label {
+        padding-right: 180px;
+    }
+
+        .inline-medium-label > .label {
+            float: right;
+            margin-right: -180px;
+        }
+
+    .inline-large-label {
+        padding-right: 240px;
+    }
+
+        .inline-large-label > .label {
+            float: right;
+            margin-right: -240px;
+        }
+
+
+
+    /* Fields list */
+    .fieldset.fields-list,
+    .wizard-fieldset.fields-list {
+        background-position: top right;
+    }
+
+    .field-block .label,
+    .field-drop .label {
+        float: right;
+        text-align: left;
+        margin: 0 -210px 0 0;
+    }
+
+    /* Field drop */
+    .field-drop {
+        padding: 28px 230px 28px 30px;
+    }
+
+    /* Sizes */
+
+    .compact-field-blocks .field-block,
+    .compact-field-blocks .field-drop {
+        padding-right: 190px;
+    }
+
+        .compact-field-blocks .field-block .label,
+        .compact-field-blocks .field-drop .label {
+            margin-right: -170px;
+        }
+
+    .mini-field-blocks .field-block,
+    .mini-field-blocks .field-drop {
+        padding-right: 150px;
+    }
+
+        .mini-field-blocks .field-block .label,
+        .mini-field-blocks .field-drop .label {
+            margin-right: -130px;
+        }
+
+    /* Wizard */
+
+    .full-page-wizard > .block {
+        text-align: right;
+    }
+
+    .wizard-steps > li {
+        padding: 0 65px 0 9px;
+    }
+
+    .wizard-step {
+        margin-right: -32px;
+    }
+
+    .wizard-fieldset:last-child,
+    .wizard-enabled .wizard-fieldset.active {
+        -webkit-border-bottom-right-radius: 5px;
+        -webkit-border-bottom-left-radius: 5px;
+        -moz-border-radius: 0 0 5px 5px;
+        border-radius: 0 0 5px 5px;
+    }
+}
+/*/mediaquery*/
+
+/***** Custom styles - Added by Ori Bensimon - 15/07/2013 *******************/
+.label-medium {
+    margin-right: -110px !important;
+}
+
+.inline-label-medium {
+    padding-right: 110px !important;
+}
+
+
+
+
+/********************************************************/
+/*                       16. Tabs                       */
+/********************************************************/
+
+/* This wrapper class is required to handle responsive variations */
+.standard-tabs > .tabs,
+.side-tabs > .tabs {
+    right: 0;
+}
+
+
+/* Actual tabs */
+.standard-tabs > .tabs {
+    left: 0;
+}
+
+    .standard-tabs > .tabs > li {
+        float: right;
+        padding-left: 13px;
+    }
+
+        .standard-tabs > .tabs > li:first-child {
+            border-right-color: transparent;
+        }
+
+        .standard-tabs > .tabs > li.active,
+        .standard-tabs > .tabs > li.active + li {
+            border-right-color: transparent;
+        }
+/* IE7 */
+.ie7 .standard-tabs > .tabs > li.active,
+.ie7 .standard-tabs > .tabs > li.active + li {
+    border-right-color: #cccccc;
+}
+
+    .ie7 .standard-tabs > .tabs > li.active.last-child {
+        border-left: 1px solid #cccccc;
+    }
+
+.standard-tabs > .tabs > li.active > a {
+    margin-right: -13px;
+    margin-left: -13px;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    -webkit-box-shadow: -0 1px 4px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: -0 1px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: -0 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/*
+	 * Standard tabs at bottom
+	 */
+
+.standard-tabs.at-bottom > .tabs > li.active > a {
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    -webkit-box-shadow: -0 -1px 4px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: -0 -1px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: -0 -1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.standard-tabs.at-bottom > .tabs-content {
+    -webkit-border-top-right-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+}
+
+/*
+	* Side tabs
+	*/
+.side-tabs {
+    padding-right: 179px;
+}
+
+    /* Actual tabs */
+    .side-tabs > .tabs {
+        margin: -5px -5px -5px 0;
+        padding: 5px 5px 5px 0;
+    }
+
+        .side-tabs > .tabs > li {
+            padding: 11px 11px 11px 9px;
+        }
+
+            .side-tabs > .tabs > li > a {
+                margin: -11px -11px -11px -9px;
+                padding: 11px 11px 11px 9px;
+            }
+
+.no-touch .side-tabs > .tabs > li > a:hover {
+    padding-left: 6px;
+    border-left: 3px solid #999999;
+}
+
+.no-touch .side-tabs > .tabs > li.disabled > a:hover {
+    padding-left: 9px;
+    border-left: 0;
+}
+
+.side-tabs > .tabs > li.active > a {
+    padding: 11px 10px 11px 9px;
+    border-left: 0;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+    -webkit-box-shadow: -0 1px 4px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: -0 1px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: -0 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.no-touch .side-tabs > .tabs > li.active > a:hover {
+    padding-left: 9px;
+    border-left: 0;
+}
+
+/* Left side tabs */
+.side-tabs.on-left {
+    padding-right: 0;
+    padding-left: 179px;
+}
+
+    .side-tabs.on-left > .tabs {
+        right: auto;
+        left: 0;
+        margin: -5px 0 -5px -5px;
+        padding: 5px 0 5px 5px;
+    }
+
+        .side-tabs.on-left > .tabs > li {
+            padding: 11px 9px 11px 11px;
+        }
+
+            .side-tabs.on-left > .tabs > li > a {
+                margin: -11px -9px -11px -11px;
+                padding: 11px 9px 11px 11px;
+            }
+
+.no-touch .side-tabs.on-left > .tabs > li > a:hover {
+    padding-left: 11px;
+    border-left: 0;
+    padding-right: 6px;
+    border-right: 3px solid #999999;
+}
+
+.no-touch .side-tabs.on-left > .tabs > li.disabled > a:hover {
+    padding-left: 11px;
+    padding-right: 9px;
+    border-right: 0;
+}
+
+.side-tabs.on-left > .tabs > li.active > a {
+    padding: 11px 9px 10px 11px;
+    border-left: 1px solid #cccccc;
+    border-right: 0;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    border-radius: 5px 0 0 5px;
+}
+
+.no-touch .side-tabs.on-left > .tabs > li.active > a:hover {
+    padding-left: 11px;
+    padding-right: 9px;
+    border-left: 1px solid #cccccc;
+    border-right: 0;
+}
+
+.side-tabs.on-left > .tabs-content {
+    -webkit-border-top-right-radius: 6px;
+    -webkit-border-top-left-radius: 0;
+}
+
+.tabs-fullheight.on-left > .tabs-content {
+    -webkit-border-bottom-right-radius: 6px;
+    -moz-border-radius-bottomright: 6px;
+    border-bottom-right-radius: 6px;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* Content */
+.standard-tabs > .tabs-content,
+.side-tabs > .tabs-content {
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    -moz-border-radius: 6px 6px 6px 0px;
+    -webkit-box-shadow: -0 1px 4px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: -0 1px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: -0 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tabs-fullheight > .tabs-content {
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    border-bottom-right-radius: 0;
+}
+
+#notifications-top-right {
+    right: 0;
+}
+
+#notifications-top-center {
+    right: 50%;
+    margin-right: -150px !important;
+}
+
+#notifications-top-left {
+    left: 0;
+}
+
+#notifications-bottom-right {
+    right: 0;
+}
+
+#notifications-bottom-center {
+    right: 50%;
+    margin-right: -150px !important;
+}
+
+#notifications-bottom-left {
+    left: 0;
+}
+
+
+
+.notification > .close {
+    margin: -10px 0 0 -10px;
+}
+
+
+.notification-icon {
+    margin: 11px 13px 11px 11px;
+}
+
+    .notification-icon.outside {
+        left: 100%;
+        margin: 6px 0 0 12px;
+    }
+
+#notifications-top-right .notification-icon.outside,
+#notifications-bottom-right .notification-icon.outside {
+    left: auto;
+    right: 100%;
+    margin: 6px 12px 0 0;
+}
+
+
+/*********** reset.css ****************/
+
+
+
+ul, ol {
+    margin-right: 1.8em;
+}
+
+.ie6 legend, .ie7 legend {
+    margin-right: -7px;
+}
+
+.spinLoader {
+    position: fixed;
+    top: 450px;
+    left: 32%;
+    z-index: 900;
+    display: none;
+}
+
+.numberCircle {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 40px;
+    padding: 8px;
+    font-size: 22px;
+    line-height: 1em;
+    border: 4px solid #666;
+    position: relative;
+    color: #3DB5E7;
+    border-color: #ECECEC;
+}
+
+    .numberCircle .height_fix {
+        margin-top: 100%;
+    }
+
+    .numberCircle .content {
+        position: absolute;
+        left: 0;
+        top: 60%;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        margin-top: -16px; /* Note, this must be half the font size */
+        cursor: pointer;
+        cursor: hand;
+    }
+
+/* Two button pagination - previous / next */
+.paginate_disabled_previous:active,
+.paginate_enabled_previous:active,
+.paginate_disabled_next:active,
+.paginate_enabled_next:active {
+    outline: none;
+}
+
+.paginate_disabled_previous,
+.paginate_disabled_next {
+    color: #74a8d4 !important;
+    -webkit-text-shadow: none;
+    -moz-text-shadow: none;
+    text-shadow: none;
+}
+
+    .paginate_disabled_previous:before,
+    .paginate_enabled_previous:before,
+    .paginate_disabled_next:after,
+    .paginate_enabled_next:after {
+        display: inline-block;
+        font-weight: normal;
+        font-style: normal;
+        font-family: 'EntypoRegular';
+        font-size: 2em;
+        line-height: 1em;
+        margin: -0.5em -0.077em -0.5em -0.077em;
+        vertical-align: -0.077em;
+    }
+
+    .paginate_disabled_previous:before,
+    .paginate_enabled_previous:before {
+        content: 'Ä';
+        margin-left: 5px;
+    }
+
+    .paginate_disabled_next:after,
+    .paginate_enabled_next:after {
+        content: 'Å';
+        margin-right: 5px;
+    }
+
+.dash-events-footer img {
+    margin-right: 16px;
+    vertical-align: middle;
+}
+
+.dash-messages-icon-plus img {
+    margin-right: 16px;
+    vertical-align: middle;
+}
+
+.dash-events-message img {
+    margin-right: 16px;
+    vertical-align: middle;
+}
+
+.MainMenuMargin {
+    margin-left: 60px;
+}
+
+.dash-messages-footer img {
+    margin-right: 16px;
+    vertical-align: middle;
+}
+/************************************************/
+#crumbs {
+    text-align: right;
+    overflow-x:scroll;
+    overflow-x:hidden;
+}
+
+#crumbs ul {
+    list-style: none;
+    display: inline-table;
+}
+
+#crumbs ul li {
+    display: inline;
+}
+
+    #crumbs ul li a {
+        display: block;
+        float: right;
+        height: 50px;
+        background: #3467af;
+        padding: 30px 40px 0 60px;
+        position: relative;
+        margin: 0 10px 0 0;
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+    }
+
+        #crumbs ul li a:after {
+            content: "";
+            border-top: 40px solid transparent;
+            border-bottom: 40px solid transparent;
+            border-right: 40px solid #3467af;
+            position: absolute;
+            left: -40px;
+            top: 0;
+            z-index: 1;
+            color: #2D3E58;
+        }
+
+#crumbs ul li a:before {
+    content: "";
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-right: 40px solid #ECECEC;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#crumbs ul li:first-child a {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#crumbs ul li:first-child a:before {
+    display: none;
+}
+
+    #crumbs ul li:last-child a {
+        /*border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background:#a3a3a3;*/
+    }
+
+        #crumbs ul li:last-child a:after {
+            /*display: none;
+    width:20px;
+    border-right-color: #a3a3a3;*/
+        }
+#crumbs ul li:last-child a:hover {
+    /*border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;*/
+    border:#a3a3a3;
+}
+
+#crumbs ul li:last-child a:hover :after {
+    /*display: none;
+    width:20px;*/
+    border-right-color: #a3a3a3;
+}
+
+#crumbs ul li a:hover {
+    background:  #2D3E58;
+    color:#fff;
+}
+
+#crumbs ul li a:hover:after {
+    border-right-color: #2D3E58;
+}
+
+
+#crumbs .OrderHeader
+{
+    font-size:large;
+    padding:10px 5px 20px 20px;
+    position:absolute;
+}
+
+#crumbs ul li .employed {
+    background:#22e04e;
+    color:#fff;
+}
+
+#crumbs .employed:after {
+    border-right-color: #22e04e;
+}
+
+#crumbs .employed:after:hover {
+    border-right-color: #dc1e1e;
+    color:#22e04e;
+}
+
+    #crumbs ul li .auto {
+        background: #CECECE;
+        color: #fff;
+    }
+
+    #crumbs .auto:after {
+        border-right-color: #CECECE;
+    }
+
+#crumbs .auto:after:hover {
+    border-right-color: #dc1e1e;
+    color:#3467af;
+}
+
+#crumbs ul li:last-child .negative {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background:#dc1e1e;
+    color:#fff;
+}
+#crumbs ul li .negative {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background:#dc1e1e;
+    color:#fff;
+}
+#crumbs ul li .negative:hover {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background:#dc1e1e;
+    color:#fff;
+}
+#crumbs .negative:after {
+    display: none;
+    width:20px;
+    border-right-color: #f21515;
+}
+#crumbs .negative:hover {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background:#dc1e1e;
+    color:#2D3E58;
+}
+
+#crumbs .negative:after:hover {
+    display: none;
+    width:20px;
+    border-right-color: #dc1e1e;
+    color:#2D3E58;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Next & previous buttons */
+.mySlidesnext {
+  float:left;
+  cursor: pointer;
+  margin-top:80px;
+  margin-right:98%;
+  width: auto;
+  color: deepskyblue;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 3px 3px 3px 3px;
+  z-index:5;
+}
+.mySlidesprev {
+  margin-top:80px;
+  margin-right:3%;
+  cursor: pointer;
+  width: auto;
+  color: deepskyblue;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  z-index:5;
+}
+.mySlidesprevCand {
+    margin-top: 80px;
+    margin-right: 3%;
+    cursor: pointer;
+    width: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    z-index: 500000;
+}
+/* Position the "next button" to the right */
+.slideshow-container .mySlidesnext {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.slideshow-container .mySlidesprev:hover, .mySlidesnext:hover {
+  background-color: rgba(0,0,0,0);
+}
+/* On hover, add a black background color with a little bit see-through */
+.slideshow-container .mySlidesprevCand:hover, .mySlidesnext:hover {
+    background-color: rgba(0,0,0,0);
+}
+
+
+/* Fading animation */
+.slideshow-container .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.mySlides {
+    border-radius: 30px 3px 3px 3px;
+}
+
+.round-td-green {
+    border-right: 6px solid lightgreen;
+}
+
+.lightgreen {
+    color: lawngreen;
+}
+
+.round-td-red {
+    border-right: 6px solid red;
+}
+
+.round-td-blue {
+    border-right: 6px solid blue;
+}
+
+.round-td-yellow {
+    border-right: 6px solid yellow;
+}
+
+.round-td-black {
+}

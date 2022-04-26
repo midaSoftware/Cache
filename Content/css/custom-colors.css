@@ -1,0 +1,175 @@
+
+
+.midaColors.white-bg,
+.midaColors.white-gradient > .drop-down {
+	background: #fff;
+	color: #666666;
+	border-color: #cccccc;
+	}
+	.midaColors.a.white-bg:hover {
+		color: #666666;
+		background: #fff;
+	}
+.midaColors.white-gradient, .midaColors.white-gradient:visited,
+.midaColors.white-gradient > .select-value, .midaColors.white-gradient > .select-arrow {
+	color: #666666;
+	background: #e4e7eb url(/Content/img/old-browsers/colors/bg_white-gradient.png) repeat-x;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background: -webkit-gradient(linear, right top, right bottom, from(#ffffff), to(#e4e7eb));
+	background: -webkit-linear-gradient(top, #ffffff, #e4e7eb);
+	background: -moz-linear-gradient(top, #ffffff, #e4e7eb);
+	background: -ms-linear-gradient(top, #ffffff, #e4e7eb);
+	background: -o-linear-gradient(top, #ffffff, #e4e7eb);
+	background: linear-gradient(top, #ffffff, #e4e7eb);
+	border-color: #cccccc;
+	}
+	
+	.midaColors.white-gradient.glossy,
+	.glossy > .button-icon.white-gradient, .button-icon.glossy.white-gradient,
+	.white-gradient.glossy > .select-value, .white-gradient.glossy > .select-arrow {
+		background: #e8e8eb url(/Content/img/old-browsers/colors/bg_white-gradient_glossy.png) repeat-x;
+		-webkit-background-size: 100% 100%;
+		-moz-background-size: 100% 100%;
+		-o-background-size: 100% 100%;
+		background-size: 100% 100%;
+		background: -webkit-gradient(linear, right top, right bottom, from(#ffffff), to(#e8e8eb), color-stop(0.5, #ededf0), color-stop(0.5, #e3e3e5));
+		background: -webkit-linear-gradient(top, #ffffff, #ededf0 50%, #e3e3e5 50%, #e8e8eb);
+		background: -moz-linear-gradient(top, #ffffff, #ededf0 50%, #e3e3e5 50%, #e8e8eb);
+		background: -ms-linear-gradient(top, #ffffff, #ededf0 50%, #e3e3e5 50%, #e8e8eb);
+		background: -o-linear-gradient(top, #ffffff, #ededf0 50%, #e3e3e5 50%, #e8e8eb);
+		background: linear-gradient(top, #ffffff, #ededf0 50%, #e3e3e5 50%, #e8e8eb);
+		}
+/************ Colors for candidate ****************/
+
+.Candidate .button,
+.Candidate .button:visited,
+.Candidate .select-value,
+.Candidate .select-arrow,
+.Candidate .switch-button,
+.Candidate .black-inputs .radio > .check-knob,
+.Candidate .black-inputs.radio > .check-knob,
+.Candidate  ,
+.Candidate .block-title, .details > summary,
+.Candidate .accordion > dt,
+.Candidate .table > thead > tr > th,
+.Candidate .table > thead > tr > td,
+.Candidate .table > tfoot > tr > th,
+.Candidate .table > tfoot > tr > td,
+.Candidate .agenda-header, 
+.Candidate .agenda-event,
+.Candidate .color-header,
+.Candidate .tabs-back,
+.Candidate .blocks-list > li,
+.Candidate .panel-control,
+.Candidate .wizard-step {
+	color: #ffffff;
+	background: #3468AF url(/Content/img/old-browsers/colors/bg_button.png) repeat-x;
+
+		background: -webkit-gradient(linear, right top, right bottom, from(#ededf0), to(#3468AF));
+		background: -webkit-linear-gradient(top, #ededf0, #3468AF);
+		background: -moz-linear-gradient(top, #ededf0, #3468AF);
+		background: -ms-linear-gradient(top, #ededf0, #3468AF);
+		background: -o-linear-gradient(top, #ededf0, #3468AF);
+		background: linear-gradient(top, #ededf0, #3468AF);
+	border-color: #3468AF;
+	}
+	.Candidate a.button:hover, .Candidate button.button:hover,
+	.Candidate a.select-value:hover, .Candidate .no-touch .select-arrow:hover,
+	.Candidate a.agenda-event:hover {
+		color: #ffffff;
+		background: #3468AF url(/Content/img/old-browsers/colors/bg_a_button_hover.png) repeat-x;
+	
+		background: -webkit-gradient(linear, right top, right bottom, from(#ededf0), to(#3468AF));
+		background: -webkit-linear-gradient(top, #ededf0, #3468AF);
+		background: -moz-linear-gradient(top, #ededf0, #3468AF);
+		background: -ms-linear-gradient(top, #ededf0, #3468AF);
+		background: -o-linear-gradient(top, #ededf0, #3468AF);
+		background: linear-gradient(top, #ededf0, #3468AF);
+		border-color: #3468AF;
+	}
+	.Candidate .button.glossy,
+	.Candidate .glossy > .select-value, .Candidate .glossy > .select-arrow {
+		background: #3468AF url(/Content/img/old-browsers/colors/bg_button_glossy.png) repeat-x;
+	
+			background: -webkit-gradient(linear, right top, right bottom, from(#fafafc), to(#ededf0), color-stop(0.5, #ededf0), color-stop(0.5, #729CD6));
+			background: -webkit-linear-gradient(top, #BDD1EC, #ededf0 50%, #729CD6 50%, #3468AF);
+			background: -moz-linear-gradient(top, #BDD1EC, #ededf0 50%, #729CD6 50%, #3468AF);
+			background: -ms-linear-gradient(top, #BDD1EC, #ededf0 50%, #729CD6 50%, #3468AF);
+			background: -o-linear-gradient(top, #BDD1EC, #ededf0 50%, #729CD6 50%, #3468AF);
+			background: linear-gradient(top, #BDD1EC, #ededf0 50%, #729CD6 50%, #3468AF);
+		}
+		.Candidate a.button.glossy:hover, .Candidate button.button.glossy:hover,
+		.Candidate .glossy > a.select-value:hover, .Candidate .glossy > .select-arrow:hover {
+			background: #3468AF url(/Content/img/old-browsers/colors/bg_a_button_glossy_hover.png) repeat-x;
+	
+			background: -webkit-gradient(linear, right top, right bottom, from(#fafafc), to(#ededf0), color-stop(0.5, #ededf0), color-stop(0.5, #729CD6));
+			background: -webkit-linear-gradient(top, #BDD1EC, #ededf0 50%, #729CD6 50%, #3468AF);
+			background: -moz-linear-gradient(top, #BDD1EC, #ededf0 50%, #729CD6 50%, #3468AF);
+			background: -ms-linear-gradient(top, #BDD1EC, #ededf0 50%, #729CD6 50%, #3468AF);
+			background: -o-linear-gradient(top, #BDD1EC, #ededf0 50%, #729CD6 50%, #3468AF);
+			background: linear-gradient(top, #BDD1EC, #ededf0 50%, #729CD6 50%, #3468AF);
+		}
+	.Candidate a.button:active, .Candidate button.button:active, .Candidate .button.active, .Candidate .button.active:hover,
+	.Candidate a.button.glossy:active, .Candidate button.button.glossy:active, .Candidate .button.glossy.active {
+		background: #3468AF url(/Content/img/old-browsers/colors/bg_a_button_active.png) repeat-x;
+		
+		background: -webkit-gradient(linear, right top, right bottom, from(#bdbdbd), to(#dbdbdb));
+		background: -webkit-linear-gradient(top, #3468AF, #3468AF);
+		background: -moz-linear-gradient(top, #3468AF, #3468AF);
+		background: -ms-linear-gradient(top, #3468AF, #3468AF);
+		background: -o-linear-gradient(top, #3468AF, #3468AF);
+		background: linear-gradient(top, #3468AF, #3468AF);
+	}
+
+
+.Candidate .button-icon,
+.Candidate .progress-bar,
+.Candidate .slider-bar,
+.Candidate .table-header,
+.Candidate .table-footer {
+	color: white;
+	background: #3468AF url(/Content/img/old-browsers/colors/bg_button-icon.png) repeat-x;
+
+	background: -webkit-gradient(linear, right top, right bottom, from(#ededf0), to(#3468AF));
+	background: -webkit-linear-gradient(top, #ededf0, #3468AF);
+	background: -moz-linear-gradient(top, #ededf0, #3468AF);
+	background: -ms-linear-gradient(top, #ededf0, #3468AF);
+	background: -o-linear-gradient(top, #ededf0, #3468AF);
+	background: linear-gradient(top, #ededf0, #3468AF);
+	border-color: #3468AF;
+	}
+	
+/*.Candidate .wrapped,
+.Candidate .boxed {
+    background: #3468AF;
+    color: #ffffff;
+    border-color: #3468AF;
+}
+*/
+.gradient {
+ background-color:Red;
+
+
+}
+.Candidate .gradient {
+  @extends .blue-gradient;
+}
+/************ Colors for jobs ****************/
+.Job .gradient {
+  @extends .green-gradient;
+  
+}
+/************ Colors for clients ****************/		
+.Client .gradient {
+  @extends .orange-gradient;
+  
+}
+/*************** Custom Styles - Addded by Ori Bensimon - 14/07/2013 ************************/
+
+.light-silver
+{
+	background-color:#f6f6f6;
+}

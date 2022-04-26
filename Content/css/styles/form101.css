@@ -1,0 +1,67 @@
+/**
+ *
+ * '||''|.                            '||
+ *  ||   ||    ....  .... ...   ....   ||    ...   ... ...  ... ..
+ *  ||    || .|...||  '|.  |  .|...||  ||  .|  '|.  ||'  ||  ||' ''
+ *  ||    || ||        '|.|   ||       ||  ||   ||  ||    |  ||
+ * .||...|'   '|...'    '|     '|...' .||.  '|..|'  ||...'  .||.
+ *                                                  ||
+ * --------------- By Display:inline ------------- '''' -----------
+ *
+ * Form101
+ */
+
+
+
+.title101{
+     text-align:center;
+     color: #158cba;
+
+     font-size:40px;
+}
+
+.border101{
+    border-radius:8px;
+}
+
+
+
+.divTitle101{
+    font-size:15px;
+    color:white;
+    background-color:#75caeb;
+}
+
+.inputpaddingLeft101{
+
+    padding-left:120px;
+}
+
+.label101{
+
+    font-size:14px;
+    font-weight:bold;
+}
+
+.input101{
+
+    width:185px;
+    height:20px;
+}
+
+.inputDate101{
+
+    width:140px;
+    height:15px;
+}
+
+.Drop101{
+
+    width:185px;
+    height:30px;
+}
+
+.td101{
+
+   border: 1px solid;
+}

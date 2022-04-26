@@ -1,0 +1,166 @@
+﻿.ui-datepicker {
+    z-index: 1000000 !important;
+}
+
+.noBullshit.simple-table > tbody > tr:first-child > th, .noBullshit.simple-table > tbody > tr:first-child > td,
+.noBullshit.table > tbody > tr:first-child > th, .noBullshit.table > tbody > tr:first-child > td {
+    background-color: inherit;
+}
+
+.noBullshit.simple-table > tbody > tr:nth-child(2n),
+.noBullshit.table > tbody > tr:nth-child(2n) {
+    background-color: inherit;
+}
+
+.noBullshit.simple-table > tbody > tr:first-child > th, .simple-table > tbody > tr:first-child > td,
+.noBullshit.table > tbody > tr:first-child > th, .table > tbody > tr:first-child > td {
+    border-top-color: inherit;
+}
+
+.noBullshit.simple-table > tbody > tr > th, .simple-table > tbody > tr > td {
+    color: inherit;
+}
+
+.noBullshit.simple-table, .noBullshit.table {
+    background-color: inherit;
+}
+
+    .noBullshit.simple-table > tbody > tr:hover, .noBullshit.table > tbody > tr:hover {
+        background: inherit;
+    }
+
+    .noBullshit.simple-table a, .noBullshit.simple-table a:active {
+        color: inherit;
+    }
+
+
+.count-0 {
+    position: absolute;
+    z-index: 88;
+    top: 0;
+    padding: 0 2px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: bold;
+    height: 16px;
+    min-width: 12px;
+    text-align: center;
+    -webkit-background-clip: padding-box;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    /*border-width: 1px;*/
+    border-style: solid;
+    font-weight: bold;
+    /*-webkit-box-shadow: inset -0 1px 0 rgba(255, 255, 255, 0.5), -0 1px 3px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: inset -0 1px 0 rgba(255, 255, 255, 0.5), -0 1px 3px rgba(0, 0, 0, 0.75);
+	box-shadow: inset -0 1px 0 rgba(255, 255, 255, 0.5), -0 1px 3px rgba(0, 0, 0, 0.75);
+	-webkit-text-shadow: -0 1px 2px rgba(0, 0, 0, 0.5);
+	-moz-text-shadow: -0 1px 2px rgba(0, 0, 0, 0.5);
+	text-shadow: -0 1px 2px rgba(0, 0, 0, 0.5);*/
+}
+
+a {
+    cursor: pointer;
+}
+
+.counterStyle {
+    height: 80px;
+    width: 75px;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.counterContainter {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.iconContainter {
+    display: inline-block;
+    font-size: small;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.legend {
+    font-weight: bold;
+}
+
+.thumbnail {
+    width: 50px;
+    height: 50px;
+}
+
+.image {
+    /*width: 100%;*/
+    height: 100%;
+    margin-top: 1px;
+    -webkit-border-radius: 30px;
+}
+
+    .image img {
+        -webkit-transition: all 1s; /* Safari and Chrome */
+        -moz-transition: all 1s; /* Firefox */
+        -ms-transition: all 1s; /* IE 9 */
+        -o-transition: all 1s; /* Opera */
+        transition: all 1s ease;
+    }
+
+    .image:hover img {
+        -webkit-transform: scale(2); /* Safari and Chrome */
+        -moz-transform: scale(2); /* Firefox */
+        -ms-transform: scale(2); /* IE 9 */
+        -o-transform: scale(2); /* Opera */
+        transform: scale(2);
+    }
+
+.thumbnail-small {
+    width: 25px;
+    height: 25px;
+}
+
+.dash-messages-icon-plus {
+    width: 13px;
+    margin-bottom: 2px;
+}
+
+.dash-messages-icon-messages {
+    width: 13px;
+    margin-bottom: 2px;
+}
+.dash-messages-footer {
+    width: 100%;
+    height: 30px;
+    background-color: #3496AF;
+    vertical-align: middle;
+}
+
+.dash-messages-footer div {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dash-events-footer {
+    width: 100%;
+    height: 30px;
+    background-color: #4D75DC;
+    vertical-align: middle;
+}
+
+.dash-events-footer div {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dash-events-icon-plus {
+    width: 13px;
+    margin-bottom: 2px;
+}
+
+.dash-footer-text {
+    font-size: 15px;
+    margin-top: 7px;
+}

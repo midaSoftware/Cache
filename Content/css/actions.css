@@ -1,0 +1,124 @@
+﻿.suited {
+    width: 30px;
+    height: 30px;
+    background: url("../../Content/img/icons/item_panel_suited_hover_black.png");
+    background-position: 0 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+    .suited:hover {
+        width: 30px;
+        height: 30px;
+        background-position: 0 -60px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+.notSuited {
+    width: 30px;
+    height: 30px;
+    background: url("../../Content/img/icons/item_panel_not_suited_black.png");
+    background-position: 0 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+    .notSuited:hover {
+        width: 30px;
+        height: 30px;
+        background-position: 0 -60px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+.addEvent {
+    width: 30px;
+    height: 30px;
+    background: url("../../Content/img/icons/add_event_date_link_blue.png");
+    background-position: 0 0;
+    background-size: 73%;
+    background-repeat: no-repeat;
+    margin-left:10px
+}
+
+    .addEvent:hover {
+        width: 30px;
+        height: 30px;
+        background: url("../../Content/img/icons/add_event_date_link_black.png");
+        background-position: 0 0px;
+        background-size: 73%;
+        background-repeat: no-repeat;
+    }
+
+    .sendMail {
+    width: 30px;
+    height: 30px;
+    background: url("../../Content/img/icons/aplicant_mail.png");
+    background-position: 0 -42px;
+    background-size: 84%;
+    background-repeat: no-repeat;
+}
+
+    .sendMail:hover {
+        width: 30px;
+        height: 30px;
+        background-position: 0 0px;
+        background-size: 84%;
+        background-repeat: no-repeat;
+    }
+
+.sms {
+    height: 30px;
+    width: 30px;
+    background: url('../../Content/img/icons/msg_link.png') 0 0;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+   .sms:hover {
+        background: url('../../Content/img/icons/msg_link.png');
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: 0 84%;
+    }
+
+   .preview {
+    height: 30px;
+    width: 30px;
+    background: url('../../Content/img/icons/cv_experience.png') 0 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+   .preview:hover {
+        background: url('../../Content/img/icons/cv_experience_black.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 0 0;
+    }
+
+      .search {
+    height: 30px;
+    width: 30px;
+    background: url('../../Content/img/icons/search_with_black.png') 0 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+   .search:hover {
+        background: url('../../Content/img/icons/search_with_black.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 0 -48px;
+    }
+.releaseSingleCand {
+    height: 30px;
+    width: 30px;
+    background: url('../../Content/img/icons/unlock.png') 0 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+    .releaseSingleCand:hover {
+        background: url('../../Content/img/icons/unlock.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 0 -48px;
+    }
