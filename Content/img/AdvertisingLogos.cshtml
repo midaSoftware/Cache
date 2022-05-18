@@ -1,0 +1,93 @@
+﻿@using ADMWeb.UI.Resources;
+@using ADMWeb.UI.Domain.DataEntities;
+@using System.Globalization;
+@model ADMWeb.UI.Models.advJobLogo
+
+@{   
+    string direction = "left";
+    if (CurrentUser.Language.ToString() == "א")
+    {
+        direction = "right";
+    }
+    bool localhost = false;
+    //bool isTest = false;
+    //bool IsTotal = false;
+    //bool IsStaging = false;
+    string startPath=   HttpContext.Current.Request.IsSecureConnection == true ? "https://" : "http://";
+    //string KindOfPath = startPath + System.Web.Hosting.HostingEnvironment.ApplicationHost.GetSiteName();
+    string KindOfPath = HttpContext.Current.Request.Url.AbsoluteUri.Replace(HttpContext.Current.Request.Url.PathAndQuery,"");
+    int i = 0;
+    //if (Request.Url.AbsoluteUri.ToLower().Contains("localhost"))
+    //{
+    //    KindOfPath = "http://test.admweb.co.il//";
+    //    localhost = true;
+
+    //}
+}
+<div class="margin-bottom" style="left:50%;" id="chooceAdvLogo@(Model.JobId)">
+    @foreach (var logo in Model.Thumbnails)
+    {
+        string path = logo.ToString();
+        string logoName = Path.GetFileName(path);
+        string FullLogoName = logoName;
+        path = path.Substring(path.IndexOf("\\Advertising\\AdvertisingLogo"), path.Length - path.IndexOf("\\Advertising\\AdvertisingLogo"));
+        path = path.Replace(@"\", "/");
+        string Finalpath = KindOfPath + @"/" + path;
+        if(logoName.Contains("." ))
+        {
+            logoName = logoName.Split('.')[0];
+        }
+        if(logoName.Length>10)
+        {
+            logoName = logoName.Substring(0, 10);
+        }
+        if (i > 6)
+        {
+            <div style="display:inline-block;" class="chooceAdvLogoFirstLogo@(Model.JobId)" title="@(FullLogoName)" >
+                <div style="font-size:12px;">@logoName</div>
+                <img class="imgl"  style="border:1px solid;width:40px;height:40px;" src="@(Finalpath)" height="100" onmouseover="drag(this)">
+                <span title="@(ADMWeb.UI.Utility.adm.GetValue("Delete"))" style="vertical-align:-37px;cursor:pointer;margin-left:45px;" class="icon-trash red" onclick="DeleteAdvLogo('@(Model.JobId)','@(Model.Thumbnails.IndexOf(logo).ToString())');"></span>
+                <input type="hidden" id="AdvLogopath@(Model.JobId)@(Model.Thumbnails.IndexOf(logo).ToString())" value="@(logo)" />
+            </div>
+        }
+        else
+        {
+<div style="display:inline-block;" title="@(FullLogoName)" >
+    <div style="font-size:12px;">@logoName</div>
+    <img class="imgl" style="border:1px solid;width:40px;height:40px;" src="@(Finalpath)"  height="100" onmouseover="drag(this)">
+    <span title="@(ADMWeb.UI.Utility.adm.GetValue("Delete"))" style="vertical-align:-37px;cursor:pointer;margin-left:45px;" class="icon-trash red" onclick="DeleteAdvLogo('@(Model.JobId)','@(Model.Thumbnails.IndexOf(logo).ToString())');"></span>
+    <input type="hidden" id="AdvLogopath@(Model.JobId)@(Model.Thumbnails.IndexOf(logo).ToString())" value="@(logo)" />
+</div>
+        }
+
+        i++;
+    }
+</div>
+
+<script>
+
+    function drag(element) {
+      
+        var a = element;
+
+        a.src = a.src.replace('Thumbnails', '');
+       
+         
+    }
+    function DeleteAdvLogo(JobId, iindex) {
+        var path = $("#AdvLogopath" + JobId + iindex).val();
+        $.ajax({
+            type: "GET",
+            url: "/Job/DeleteAdvLogo?orderNo=" + JobId + "&path=" + path,
+            success: function (result) {
+                $("#chooceAdvLogo" + JobId).html();
+                $("#chooceAdvLogo" + JobId).html(result);
+            }
+         , error: function (result) {
+         }
+        });
+    }
+
+   
+</script>
+

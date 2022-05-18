@@ -2451,7 +2451,7 @@ details.details > summary > h3 {
     z-index: 98;
     top: -5px;
     right: 15px;
-    min-width: 300px;
+    min-width: 235px;
     padding: 8px 11px;
     background: #4c4c4c;
     color: white;
@@ -5767,7 +5767,7 @@ div.divLoader div.bar12 {
 .tooltip {
     position: relative;
     white-space: nowrap;
-    max-width: 300px;
+    max-width: 500px;
 }
 
 /* Tooltips inserted inside some elements */

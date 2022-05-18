@@ -167,6 +167,9 @@
 			// Restore hidden parents
 			hidden.tempShowRevert();
 
+			if (element.hasClass('custom-width')) {
+				widthString = '400px';
+			}
 			// If full width, no need to set width
 			if (element.hasClass('full-width'))
 			{
