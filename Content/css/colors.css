@@ -113,12 +113,12 @@
 	background: linear-gradient( top, rgba(0,0,0,0.4), rgba(0,0,0,0)), #3c4044 url(/Content/img/textures/grid.png);
 }
 .linen {
-	background: url('https://cdn.jsdelivr.net/gh/midaSoftware/Cache@main/Content/img/textures/background2021.jpg') no-repeat center center;
-	background-size: cover;
+    background: url(/Content/img/textures/background2021.jpg?2) no-repeat center center; 
+    background-size: cover;
 	color: white;
 	border-color: #929ba6;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.background.png', sizingMethod='scale');
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='background.png', sizingMethod='scale')";
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.background.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='background.png', sizingMethod='scale')";
 }
 .scratch-metal {
 	border-color: #999999;
